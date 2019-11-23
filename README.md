@@ -1,4 +1,4 @@
-# devtraining
+# Dev Training
 
 # Setup a development environment
 # Portal Dev
