@@ -3,6 +3,13 @@ Integration Test
 
 junit
 
+
+@Before
+
+
+@After
+
+
 @Test
 public void testAddEntry() throws Exception {
   statement;
