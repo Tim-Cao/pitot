@@ -8,6 +8,7 @@ junit
 
 
 @After
+@DeleteAfterTestRun
 
 
 @Test
