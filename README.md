@@ -30,4 +30,3 @@ blade init -v   initialize Liferay Workspace
   * Gradle project
     Web crawler
     http://mvnrepository.com
-# Integration Test
