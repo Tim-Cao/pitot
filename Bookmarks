@@ -1,0 +1,15 @@
+bookmarks-api
+    BookmarksEntryLocalService.java
+    BookmarksEntryLocalServiceUtil.java
+    BookmarksEntryLocalServiceWrapper.java
+    BookmarksEntryService.java        permission check
+    BookmarksEntryServiceUtil.java
+
+
+bookmarks-service
+    BookmarksEntryLocalServiceImpl.java
+    BookmarksEntryServiceImpl.java
+    service.xml
+    
+bookmarks-web
+    edit_entry.jsp
