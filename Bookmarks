@@ -9,6 +9,7 @@ bookmarks-api
 bookmarks-service
     BookmarksEntryLocalServiceImpl.java
     BookmarksEntryServiceImpl.java
+    build.gradle   buildservice api test
     service.xml
     
 bookmarks-web
