@@ -1,48 +1,49 @@
->Project Name
->>.gradle
+Project Name
+>.gradle
 
->>.idea
+>.idea
 
->>gradle
+>gradle
 
->>src
+>src
 
->>>main
+>>main
 
->>>>java
+>>>java
 
->>>>>com.liferay.training
+>>>>com.liferay.training
 
->>>>>>GetInfoServlet.java
+>>>>>GetInfoServlet.java
 
->>>>>resources
+>>>>resources
 
->>>>webapps
+>>>webapps
 
->>>>index.jsp
+>>>index.jsp
 
->>>>result.jsp
+>>>result.jsp
           
->>>>WEB-INFO
+>>>WEB-INFO
 
->>>>>web.xml    //configuration file
+>>>>web.xml    //configuration file
 
->>>test
+>>test
 
->>>>build.gradle
+>>>build.gradle
 
->>>>gradlew
+>>>gradlew
 
->>>>gradlew.bat
+>>>gradlew.bat
 
->>>>settings.gradle
+>>>settings.gradle
   
 
 
->index.jsp   java server pages
->>send data from page
->servlet   java file
->>logic
-  
->result.jsp
->>return data to page
+index.jsp   java server pages
+>send data from page
+
+servlet   java file
+>logic
+
+result.jsp
+>return data to page
