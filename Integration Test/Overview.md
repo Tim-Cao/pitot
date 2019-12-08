@@ -13,4 +13,4 @@ public void testAddEntry() throws Exception {
   Assert.
 }
 
-## gradlew testIntegration
+- gradlew testIntegration
