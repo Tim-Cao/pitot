@@ -2,7 +2,7 @@ bookmarks-api
     BookmarksEntryLocalService.java
     BookmarksEntryLocalServiceUtil.java
     BookmarksEntryLocalServiceWrapper.java
-    BookmarksEntryService.java        permission check
+    BookmarksEntryService.java        //permission check
     BookmarksEntryServiceUtil.java
 
 
