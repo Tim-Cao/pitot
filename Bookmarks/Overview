@@ -9,8 +9,9 @@ bookmarks-api
 bookmarks-service
     BookmarksEntryLocalServiceImpl.java
     BookmarksEntryServiceImpl.java
-    build.gradle   buildservice api test
+    build.gradle  // buildservice api test
     service.xml
+    portlet-model-hints.xml  //hints
     
 bookmarks-web
     edit_entry.jsp
