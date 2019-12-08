@@ -1,4 +1,4 @@
-Integration Test
+bookmarks-test
 
 
 junit
@@ -16,3 +16,5 @@ public void testAddEntry() throws Exception {
   statement;
   Assert.
 }
+
+gradlew testIntegration
