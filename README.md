@@ -8,10 +8,10 @@
 - Intellij
 - Liferay Intellij Plugin
 - Liferay Project SDK
--- Don't initialize Liferay Workspace directory
--- Install Blade CLI
+  - Don't initialize Liferay Workspace directory
+  - Install Blade CLI
 - blade init -v
---Initialize Liferay Workspace
+  - Initialize Liferay Workspace
 
 ## Other
 - Navicat
