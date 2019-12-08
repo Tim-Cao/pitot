@@ -1,8 +1,9 @@
 Structure
   
-
-
-
+    webapps
+      index.jsp
+      WEB-INFO
+        web.xml    //configuration file
 
 
 jsp   java server pages
