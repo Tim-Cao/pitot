@@ -1,82 +1,15 @@
-<?xml version="1.0"?>
-
-<web-app id="Liferay_Portal" metadata-complete="true" version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
-	<context-param>
-		<param-name>axis.servicesPath</param-name>
-		<param-value>/api/axis/</param-value>
-	</context-param>
-	<filter>
-		<filter-name>Invoker Filter - ASYNC</filter-name>
-		<filter-class>com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter</filter-class>
-		<async-supported>true</async-supported>
-		<init-param>
-			<param-name>dispatcher</param-name>
-			<param-value>ASYNC</param-value>
-		</init-param>
-		<init-param>
-			<param-name>register-portal-lifecycle</param-name>
-			<param-value>false</param-value>
-		</init-param>
-	</filter>
-	<filter-mapping>
-		<filter-name>Invoker Filter - ERROR</filter-name>
-		<url-pattern>/*</url-pattern>
-		<dispatcher>ERROR</dispatcher>
-	</filter-mapping>
-	<listener>
-		<listener-class>com.liferay.portal.spring.context.PortalContextLoaderListener</listener-class>
-	</listener>
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
 	<servlet>
-		<servlet-name>Main Servlet</servlet-name>
-		<servlet-class>com.liferay.portal.internal.servlet.MainServlet</servlet-class>
-		<load-on-startup>0</load-on-startup>
-		<async-supported>true</async-supported>
+		<servlet-name>GetInfoServlet</servlet-name>
+		<display-name>GetInfoServlet</display-name>
+		<servlet-class>com.liferay.training.servlet.GetInfoServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>I18n Servlet</servlet-name>
-		<url-pattern>/ro-RO/*</url-pattern>
+		<servlet-name>GetInfoServlet</servlet-name>
+		<url-pattern>/GetInfoServlet</url-pattern>
 	</servlet-mapping>
-	<session-config>
-		<session-timeout>15</session-timeout>
-		<cookie-config>
-			<http-only>true</http-only>
-		</cookie-config>
-	</session-config>
-	<mime-mapping>
-		<extension>js</extension>
-		<mime-type>text/javascript</mime-type>
-	</mime-mapping>
-	<error-page>
-		<location>/errors/code.jsp</location>
-	</error-page>
-	<jsp-config>
-		<taglib>
-			<taglib-uri>http://displaytag.sf.net</taglib-uri>
-			<taglib-location>/WEB-INF/tld/displaytag.tld</taglib-location>
-		</taglib>
-	</jsp-config>
-	<security-constraint>
-		<web-resource-collection>
-			<web-resource-name>/c/portal/protected</web-resource-name>
-			<url-pattern>/c/portal/protected</url-pattern>
-			<url-pattern>/ar/c/portal/protected</url-pattern>
-		</web-resource-collection>
-		<auth-constraint>
-			<role-name>users</role-name>
-		</auth-constraint>
-		<user-data-constraint>
-			<transport-guarantee>NONE</transport-guarantee>
-		</user-data-constraint>
-	</security-constraint>
-	<login-config>
-		<auth-method>FORM</auth-method>
-		<realm-name>PortalRealm</realm-name>
-		<form-login-config>
-			<form-login-page>/c/portal/j_login</form-login-page>
-			<form-error-page>/c/portal/j_login_error</form-error-page>
-		</form-login-config>
-	</login-config>
-	<security-role>
-		<role-name>users</role-name>
-	</security-role>
 </web-app>
