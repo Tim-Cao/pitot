@@ -1,8 +1,6 @@
 # Dev Training
 
-# Setup a development environment
-
-Prerequrisite
+# Prerequisite
 
 JDK
 Git
@@ -14,19 +12,6 @@ Liferay Project SDK
  Install Blade CLI
 blade init -v   initialize Liferay Workspace
 
-
-# Portal Dev
-  * -web 
-    Locate jsp files in source code
-  
-  * -service
-    LocalService.java 
-    Service.java
-    portal-model-hints.xml
-    service.xml
-    
-  * Navicat
-  
-  * Gradle project
-    Web crawler
-    http://mvnrepository.com
+* Other
+Navicat
+http://mvnrepository.com
