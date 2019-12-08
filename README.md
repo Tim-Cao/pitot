@@ -10,7 +10,7 @@
 - Liferay Project SDK
   - Don't initialize Liferay Workspace directory
   - Install Blade CLI
-- blade init -v
+- `blade init -v`
   - Initialize Liferay Workspace
 
 ## Other
