@@ -1,0 +1,18 @@
+Input 类型 - email
+email 类型用于应该包含 e-mail 地址的输入域。
+在提交表单时，会自动验证 email 域的值。
+E-mail: <input type="email" name="user_email" />
+
+
+Input 类型 - url
+url 类型用于应该包含 URL 地址的输入域。
+在提交表单时，会自动验证 url 域的值。
+Homepage: <input type="url" name="user_url" />
+
+
+
+
+Input 类型 - number
+number 类型用于应该包含数值的输入域。
+您还能够设定对所接受的数字的限定：
+Points: <input type="number" name="points" min="1" max="10" />
