@@ -44,5 +44,5 @@
 >servlet   java file
 >>logic
   
-result.jsp
-  return data to page
+>result.jsp
+>>return data to page
