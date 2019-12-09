@@ -1,5 +1,8 @@
 # service.xml
 
-service builder
+service builder      model
 
 connect java to DB
+
+
+MVC  Model View Controller
