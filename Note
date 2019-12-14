@@ -2,4 +2,12 @@ init.jsp
 
 taglib uri="http://liferay.com/tld/aui" prefix="aui
 
-<aui:input>
+<aui:input name="<%= Constants.CMD %>" type="hidden" />   //In edit_entry.jsp
+
+page import="com.liferay.bookmarks.model.BookmarksFolder"   //Import class in init.jsp
+
+view.jsp
+
+<%@ include file="/bookmarks/init.jsp" %>      //Invoke init.jsp
+
+BookmarksFolder folder = (BookmarksFolder)request.getAttribute(BookmarksWebKeys.BOOKMARKS_FOLDER);
