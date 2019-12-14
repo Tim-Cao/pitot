@@ -10,6 +10,11 @@
 - Liferay Project SDK
   - Don't initialize Liferay Workspace directory
   - Install Blade CLI
+- Generate an IDEA module for Liferay Project
+`cd source/modules`
+`../gradlew idea`
+
+## Optional
 - `blade init -v`
   - Initialize Liferay Workspace
 
