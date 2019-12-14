@@ -16,3 +16,4 @@
 ## Other
 - Navicat
 - http://mvnrepository.com
+- https://portal.liferay.dev/docs/7-1/tutorials/-/knowledge_base/t/service-builder-persistence
