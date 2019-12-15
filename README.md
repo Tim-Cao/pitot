@@ -22,6 +22,7 @@
 ## Other
 - Navicat
 - http://mvnrepository.com
+- https://plugins.jetbrains.com/plugin/10739-liferay-intellij-plugin
 - https://portal.liferay.dev/docs/7-1/tutorials/-/knowledge_base/t/service-builder-persistence
 - https://docs.gradle.org/current/userguide/idea_plugin.html
 - https://github.com/holatuwol/liferay-intellij
