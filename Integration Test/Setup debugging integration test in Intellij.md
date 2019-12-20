@@ -24,3 +24,4 @@
 - Add break point in `FragmentEntryProcessorFreemarkerTest.java`
 - Click green triangle button in the `FragmentEntryProcessorFreemarkerTest.java`
 - Debug run
+- Set output path
