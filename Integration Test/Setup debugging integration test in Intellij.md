@@ -21,7 +21,9 @@
 - Press double shift
 - Type `FragmentEntryProcessorFreemarkerTest`
 - Open `FragmentEntryProcessorFreemarkerTest.java`
-- Add break point in `FragmentEntryProcessorFreemarkerTest.java`
-- Click green triangle button in the `FragmentEntryProcessorFreemarkerTest.java`
-- Debug run
-- Set output path
+- Click cross sight icon button
+- Right click the `*-test` folder
+- Open in Terminal
+- Execute `gw testIntegration --tests **FragmentEntryProcessorFreemarkerTest**`
+# Optional
+- Execute `gw testIntegration --test **FragmentEntryProcessorFreemarkerTest.testProcessFragmentEntryLinkHTMLWithConfiguration` to run specific test
