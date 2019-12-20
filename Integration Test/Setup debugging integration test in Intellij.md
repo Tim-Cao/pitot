@@ -17,9 +17,10 @@
 - Click Debug button on the right upper workbar 
   - `Connected to the target VM, address: 'localhost:8000', transport: 'socket'`
 # Debug in integration test
-(e.g. FragmentEntryProcessorFreemarkerTest#testProcessFragmentEntryLinkHTMLWithConfiguration)
+`e.g. FragmentEntryProcessorFreemarkerTest#testProcessFragmentEntryLinkHTMLWithConfiguration`
 - Press double shift
-- Type FragmentEntryProcessorFreemarkerTest
-- Add break point in FragmentEntryProcessorFreemarkerTest.java
-- Click green triangle button in the FragmentEntryProcessorFreemarkerTest.java
+- Type `FragmentEntryProcessorFreemarkerTest`
+- Open `FragmentEntryProcessorFreemarkerTest.java`
+- Add break point in `FragmentEntryProcessorFreemarkerTest.java`
+- Click green triangle button in the `FragmentEntryProcessorFreemarkerTest.java`
 - Debug run
