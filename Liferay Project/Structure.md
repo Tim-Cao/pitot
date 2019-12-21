@@ -1,2 +1,18 @@
 - Liferay Project Name
-  - Module Name
+  - modules
+    - service-builder module name
+      - api
+      - service
+        - service.xml
+    - mvc-portlet module name
+      - src
+        - main
+          - java
+            - com.liferay.training
+              - portlet
+                - GetBookInfoPortlet.java
+          - resources
+            - META-INF
+              - css
+              - init.jsp
+              - view.jsp
