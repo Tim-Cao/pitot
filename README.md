@@ -5,6 +5,7 @@
 - JDK
 - Git
 - Ant
+- Nodejs
 - Intellij
 - Liferay Intellij Plugin
 - Liferay Project SDK
@@ -13,7 +14,7 @@
 - Generate an IDEA module for Liferay Project  //All configuration file
   - `cd source/modules`
   - `../gradlew idea`
-- https://github.com/holatuwol/liferay-intellij
+- https://github.com/holatuwol/liferay-intellij  //Generate workspace
 
 ## Optional
 - `blade init -v`
