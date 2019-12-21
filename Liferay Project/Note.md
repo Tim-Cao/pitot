@@ -1,6 +1,6 @@
-## service.xml
-- Connect java to DB
-
+## Liferay Modules
+- service-builder
+- mvc-portlet
 ## MVC
 - Model
   - service-builder
@@ -8,8 +8,5 @@
   - jsp
 - Controller
   - mvc-portlet  //servlet
-
-
-## Liferay Modules
-- service-builder
-- mvc-portlet
+## service.xml
+- Connect java to DB
