@@ -1,8 +1,15 @@
-# service.xml
+## service.xml
+- Connect java to DB
 
-service builder      model
+## MVC
+- Model
+  - service-builder
+- View
+  - jsp
+- Controller
+  - mvc-portlet  //servlet
 
-connect java to DB
 
-
-MVC  Model View Controller
+## Liferay Modules
+- service-builder
+- mvc-portlet
