@@ -15,3 +15,5 @@
     
 ## bookmarks-web
     edit_entry.jsp
+    view.jsp
+    init.jsp
