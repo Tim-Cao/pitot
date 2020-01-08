@@ -26,4 +26,4 @@
 - Open in Terminal
 - Execute `gw testIntegration --tests **FragmentEntryProcessorFreemarkerTest**`
 # Optional
-- Execute `gw testIntegration --test **FragmentEntryProcessorFreemarkerTest.testProcessFragmentEntryLinkHTMLWithConfiguration` to run specific test
+- Execute `gw testIntegration --tests **FragmentEntryProcessorFreemarkerTest.testProcessFragmentEntryLinkHTMLWithConfiguration` to run specific test
