@@ -10,6 +10,7 @@ com.liferay.arquillian
 	public class JournalTestUtilTest {
 
 @Inject uses reflection to inject a field with a service component object matching the field’s interface.
+
 Test rule LiferayIntegrationTestRule provides the annotation.
 
 	@ClassRule
@@ -54,13 +55,17 @@ LiferayIntegrationTestRule
 		throws Exception {    
 
 @Inject annotation to inject service components into an integration test
+
 Like use @Reference annotation to inject service components into an OSGi component
   
  	 @Inject
  
 The Liferay Arquillian Extension injects the _sampleService field with a SampleService implementation
+
 (i.e., a SampleServiceImpl instance).
-The container injects static fields once before test runs and nulls them after all tests run. 
+
+The container injects static fields once before test runs and nulls them after all tests run.
+
 Non-static fields are injected before each test run but stay in memory till all tests finish.
 
   	private SampleService _sampleService;
