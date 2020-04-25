@@ -3,6 +3,5 @@
 - @Before
 
 - @After
-- @DeleteAfterTestRun
 
-- gradlew testIntegration
+- @DeleteAfterTestRun
