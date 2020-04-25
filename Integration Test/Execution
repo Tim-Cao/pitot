@@ -1,0 +1,7 @@
+Gradle deploy integration test to portal
+
+Deploy jars in osgi\test to osgi\modules
+
+Start before test
+
+Stop after test
