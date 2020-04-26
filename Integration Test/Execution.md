@@ -27,7 +27,7 @@ Deploy Integration Test module
 
     2020-04-26 06:38:28.193 INFO  [Arquillian-Connector-Thread][BundleStartStopLogger:46] STARTED com.liferay.layout.page.template.test_1.0.0 [992]
 
-Arquillian execute Tests
+## Arquillian execute Tests
 
 ## Client
 Print Test Results
