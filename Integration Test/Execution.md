@@ -1,5 +1,5 @@
 ## Client
-Gradle deploy integration test to portal
+Gradle deploy Integration Test to portal
 
 Check the listening port
 
