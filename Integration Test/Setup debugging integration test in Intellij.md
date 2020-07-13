@@ -11,7 +11,7 @@
   - Assert `include-and-override=portal-developer.properties` in portal-ext.properties
 - Execute `..\gradlew idea` in source/modules directory
 - Execute `${/path/to/liferay-intellij}/intellij "$@"` via git bash in source directory
-- Import project > Source folder > Gradle > Finish
+- Import project > Source folder > Gradle > Finish  (Not Required)
 - Execute `catalina.bat jpda run` in portal/tomcat/bin directory
 - Add Configuration > + icon button > Remote > Set 8000 as port > Apply > Ok
 - Click Debug button on the right upper workbar 
