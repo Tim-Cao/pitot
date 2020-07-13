@@ -4,10 +4,10 @@
 - Git
 - Nodejs
 - liferay-intellij repo
-- liferay-plugin
+- liferay-plugin (Not Required)
 # Steps
 - Execute `ant all` in source directory
-- Execute `ant -f build-test.xml setup-testable-tomcat` in source directory to open the port of debugging
+- Execute `ant -f build-test.xml setup-testable-tomcat` in source directory to open the port of debugging (Not Required)
   - Assert `include-and-override=portal-developer.properties` in portal-ext.properties
 - Execute `..\gradlew idea` in source/modules directory
 - Execute `${/path/to/liferay-intellij}/intellij "$@"` via git bash in source directory
