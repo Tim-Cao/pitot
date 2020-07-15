@@ -14,6 +14,12 @@
 
 - @Before
 
+- @Test
+
 - @After
 
 - @DeleteAfterTestRun
+
+## Name Convention
+
+- testVERBSomething
