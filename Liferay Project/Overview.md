@@ -18,9 +18,11 @@
       
       *Persistence: Persistence interface that defines CRUD methods for the entity such as create, remove, countAll, find, findAll, etc.
       
-      *Util: Persistence utility class that wraps *PersistenceImpl and provides direct access to the database for CRUD operations. 
-            This utility should only be used by the service layer.
-            In your portlet classes, use *LocalServiceUtil or *ServiceUtil instead.
+      *Util: Persistence utility class that wraps *PersistenceImpl and provides direct access to the database for CRUD operations.
+      
+             This utility should only be used by the service layer.
+            
+             In your portlet classes, use *LocalServiceUtil or *ServiceUtil instead.
       
       *LocalService: Local service interface.
       
