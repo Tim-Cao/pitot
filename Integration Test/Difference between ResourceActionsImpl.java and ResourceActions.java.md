@@ -17,7 +17,7 @@ Both public methods and private methods exist
 
 - ReflectionTestUtil call private method
 
---			modelName = ReflectionTestUtil.invoke(
-				modelName = modelNameElement.getTextTrim();					_resourceActions, "_getCompositeModelName",
-			}					new Class<?>[] {Element.class},
-			else if (type.equals("composite-model-name")) {					resourceElement.element("composite-model-name"));
+		modelName = ReflectionTestUtil.invoke(
+			_resourceActions, "_getCompositeModelName",
+			new Class<?>[] {Element.class},
+			resourceElement.element("composite-model-name"));
