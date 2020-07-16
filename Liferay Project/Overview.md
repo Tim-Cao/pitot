@@ -32,6 +32,8 @@
       
       *ServiceUtil: Remote service utility class which wraps *ServiceImpl and serves as the primary remote access point to the service layer.
       
+      *Model: Base model interface.
+      
 - *-service module: The implementation of the interfaces defined in the *-api module
       
       *PersistenceImpl: Persistence implementation class that implements *Persistence.
@@ -40,13 +42,11 @@
       
       *ServiceImpl: Remote service implementation.
       
-      *Model: Base model interface.
-      
       *Impl: Model implementation.
       
-      *Service: Remote service interface.
-      
 - Note:
+
+      *Util classes are generated for backwards compatibility purposes only. Module applications should avoid calling the util classes.
 
       Shouldn't customize any of Persistence classes or interfaces.
       
