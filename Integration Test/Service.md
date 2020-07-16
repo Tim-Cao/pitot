@@ -10,4 +10,6 @@
  
  - In some cases where check permissions, use Service instead of LocalService
  
- - Avoid calling persistence from kernal directly in modules
+ - Call persistence directly in the same module or kernal
+ 
+       Avoid using this except it is quite necessary
