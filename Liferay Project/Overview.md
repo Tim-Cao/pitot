@@ -51,3 +51,9 @@
       Only three should be manually modified: *LocalServiceImpl, *ServiceImpl and *Impl.
       
       Service Builder adds corresponding methods to the *LocalService, *Service and *Model interface the next time you run it.
+
+## Reference
+
+- https://help.liferay.com/hc/en-us/articles/360018160851-What-is-Service-Builder-
+- https://help.liferay.com/hc/en-us/articles/360018160991-Finding-and-Invoking-Liferay-Services#finding-liferay-module-services
+- https://help.liferay.com/hc/en-us/articles/360017881992-Running-Service-Builder-and-Understanding-the-Generated-Code
