@@ -44,5 +44,3 @@
 
 - https://help.liferay.com/hc/en-us/articles/360017878572-Generating-Model-Service-and-Persistence-Layers
 - https://help.liferay.com/hc/en-us/articles/360017882112-Invoking-Remote-Services
-
-![image](https://github.com/Tim-Cao/pitot/blob/master/Layers%20Request.png)
