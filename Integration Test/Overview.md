@@ -23,8 +23,3 @@
 ## Name Convention
 
 - testVERBSomething
-
-## Declare new variables instead of chaining
-
-- Avoid chaining on method
-- https://github.com/liferay/liferay-portal/blob/master/modules/util/source-formatter/src/main/resources/documentation/checks/chaining_check.markdown
