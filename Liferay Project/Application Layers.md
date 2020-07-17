@@ -6,7 +6,7 @@
 
   - having it lets you swap out your persistence layer for a different implementation without modifying anything but the calls in the service layer.
 
-- The model is in the -api module, and the service and persistence layers are in the -service module.
+- The model layer is in the model, while the service and persistence layers are in the service.
 
 ## Model Layer
 
