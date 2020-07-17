@@ -1,4 +1,4 @@
-## The middle man in the MVC pattern, the Controller contains logic for passing the data back and forth between the view and the model layers.
+## Controller: The middle man in the MVC pattern, the Controller contains logic for passing the data back and forth between the view and the model layers.
 
 - In MVC, your controller receives requests from the front-end, and it pulls data from the back-end. It’s a traffic director: 
 
