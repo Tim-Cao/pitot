@@ -2,12 +2,12 @@
 
 		public interface ResourceActions {
 
-- Only public methods exist
+	- Only public methods exist
 - ResourceActionsImpl.java defines class implementing ResourceActions interface
 
 		public class ResourceActionsImpl implements ResourceActions {
 
-- Both public methods and private methods exist
+	- Both public methods and private methods exist
 
 - The model-resource node only has 1 model-name node or 1 composite-model-name node.
 
