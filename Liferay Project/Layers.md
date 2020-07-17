@@ -1,9 +1,10 @@
 ## Persistence Layer
 
+- Responsible for storing and retrieving application data. Insulate the business logic of the application from database. 
+
 - Application’s persistence layer persists data represented by configured entities to a database. 
 
 - In fact, local service implementation classes are responsible for calling the persistence layer to retrieve and store application’s data.
-
 
 ## Service Layer
 
