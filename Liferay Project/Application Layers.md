@@ -8,13 +8,9 @@
 
 - The model is in the -api module, and the service and persistence layers are in the -service module.
 
-## Persistence Layer
+## Model Layer
 
-- Responsible for storing and retrieving application data. Insulate the business logic of the application from database. 
-
-- Application’s persistence layer persists data represented by configured entities to a database. 
-
-- In fact, local service implementation classes are responsible for calling the persistence layer to retrieve and store application’s data.
+- Model data
 
 ## Service Layer
 
@@ -34,9 +30,13 @@
 
   - https://help.liferay.com/hc/en-us/articles/360018161111-Invoking-JSON-Web-Services-
 
-## Model Layer
+## Persistence Layer
 
-- Model data
+- Responsible for storing and retrieving application data. Insulate the business logic of the application from database. 
+
+- Application’s persistence layer persists data represented by configured entities to a database. 
+
+- In fact, local service implementation classes are responsible for calling the persistence layer to retrieve and store application’s data.
 
 ## Reference
 
