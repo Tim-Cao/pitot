@@ -14,7 +14,7 @@
  
       gradlew buildService
   
-- *-api module: Service Builder generates classes and interfaces belonging to the persistence layer, service layer, and model layer
+- *-api module: Service Builder generates classes and interfaces belonging to the **persistence layer**, **service layer**, and **model layer**
       
       *Persistence: Persistence interface that defines CRUD methods for the entity such as create, remove, countAll, find, findAll, etc.
       
