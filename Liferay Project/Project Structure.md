@@ -35,6 +35,8 @@
   - *ServiceUtil: Remote service utility class which wraps *ServiceImpl and serves as the primary remote access point to the service layer.
       
   - *Model: Base model interface.
+  
+  - *: model interface which extends *Model
       
 - *-service module: The implementation of the interfaces defined in the *-api module
       
@@ -54,7 +56,7 @@
       
   - Only three should be manually modified: *LocalServiceImpl, *ServiceImpl and *Impl.
       
-  - Service Builder adds corresponding methods to the *LocalService, *Service and *Model interface the next time you run it.
+  - Service Builder adds corresponding methods to the *LocalService, *Service and * interface the next time you run it.
 
 ## Reference
 
