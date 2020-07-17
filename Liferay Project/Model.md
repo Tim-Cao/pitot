@@ -1,3 +1,5 @@
+## Model: The model layer holds the application data and logic for manipulating it.
+
 ## Summary: Loose coupling
 
 - The persistence layer saves and retrieves your model data.
