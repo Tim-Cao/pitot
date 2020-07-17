@@ -1,22 +1,23 @@
-# Dev Training
-
 ## Prerequisite
 
-- JDK
-- Git
-- Ant
-- Nodejs
-- Intellij
-- Liferay Intellij Plugin
-- Liferay Project SDK
-  - Don't initialize Liferay Workspace directory
-  - Install Blade CLI
+    JDK
+    Git
+    Ant
+    Nodejs
+    Intellij
+    
 - Generate an IDEA module for Liferay Project  //All configuration file
   - `cd source/modules`
   - `../gradlew idea`
 - https://github.com/holatuwol/liferay-intellij  //Generate workspace
 
 ## Optional
+- Liferay Intellij Plugin (Not Required)
+
+- Liferay Project SDK (Not Required)
+  - Don't initialize Liferay Workspace directory
+  - Install Blade CLI
+  
 - `blade init -v`
   - Initialize Liferay Workspace
 
