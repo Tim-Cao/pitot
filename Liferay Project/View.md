@@ -1,3 +1,5 @@
+# View: The view layer contains logic for displaying data.
+
 ## *-web module
 
       init.jsp
