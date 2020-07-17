@@ -16,7 +16,7 @@
   
 - *-api module: Service Builder generates classes and interfaces belonging to the **persistence layer**, **service layer**, and **model layer**
       
-  - *Persistence: Persistence interface that defines CRUD methods for the entity such as create, read, update, and delete persistent objects
+  - *Persistence: Persistence interface that defines **CRUD** methods for the entity such as create, read, update, and delete persistent objects
       
   - *Util: 
   
