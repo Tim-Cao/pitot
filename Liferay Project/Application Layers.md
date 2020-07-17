@@ -1,3 +1,13 @@
+## Summary: Loose coupling
+
+- The persistence layer saves and retrieves your model data.
+
+- The service layer is a buffer between your application and persistence layers:
+
+  - having it lets you swap out your persistence layer for a different implementation without modifying anything but the calls in the service layer.
+
+- The model is in the -api module, and the service and persistence layers are in the -service module.
+
 ## Persistence Layer
 
 - Responsible for storing and retrieving application data. Insulate the business logic of the application from database. 
@@ -25,3 +35,10 @@
   - https://help.liferay.com/hc/en-us/articles/360018161111-Invoking-JSON-Web-Services-
 
 ## Model Layer
+
+- Model data
+
+## Reference
+
+- https://help.liferay.com/hc/en-us/articles/360017878572-Generating-Model-Service-and-Persistence-Layers
+- https://help.liferay.com/hc/en-us/articles/360017882112-Invoking-Remote-Services
