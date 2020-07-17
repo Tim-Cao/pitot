@@ -1,6 +1,0 @@
-try {
-  statements;
-}
-catch(Exception e){
-  statements;
-}
