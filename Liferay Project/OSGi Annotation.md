@@ -23,6 +23,13 @@ It is only going to work on an OSGi @Component class.
   - unbind: There is no method to call when the component is unbinding.
   
   - target: Target is used as a filter mechanism
+  
+  - cardinality: 
+    - ReferenceCardinality.MANDITORY: The reference must be available and injected before this component will start.
+  - policy:
+    -  ReferencePolicy.STATIC: The component will only be started when there is an assigned reference, and will not be notified of alternative services as they become available.
+  - policyOption:
+    - ReferencePolicyOption.RELUCTANT: For single reference cardinality, new reference potentials that become available will be ignored.  For multiple reference cardinality, new reference potentials will be bound.
 
 ## Reference
 
