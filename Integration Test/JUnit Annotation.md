@@ -69,3 +69,16 @@
 - Non-static fields are injected before each test run but stay in memory till all tests finish.
 
 		private SampleService _sampleService;
+
+	- filter:
+
+			@Inject(
+				filter = "(&(objectClass=com.liferay.dynamic.data.lists.internal.upgrade.DDLServiceUpgrade))"
+			)
+			private static UpgradeStepRegistrator _upgradeStepRegistrator;	
+	- type:
+
+			@Inject(type = SubClass.class)
+## Reference
+
+- https://help.liferay.com/hc/en-us/articles/360018168411-Injecting-Service-Components-into-Integration-Tests
