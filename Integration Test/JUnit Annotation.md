@@ -69,6 +69,8 @@
 
 		private SampleService _sampleService;
 
+- Add a filter string or type parameter to further specify the service component object to inject.
+
 	- filter:
 
 			@Inject(
