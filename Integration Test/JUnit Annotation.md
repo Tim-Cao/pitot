@@ -4,12 +4,10 @@
 
 		import com.liferay.arquillian.extension.junit.bridge.junit.Arquillian;
 
-- @RunWith(Arquillian.class) marks the class for Arquillian to execute.
+## @RunWith(Arquillian.class) marks the class for Arquillian to execute.
 
 		@RunWith(Arquillian.class)
 		public class JournalTestUtilTest {
-
-- @Inject uses reflection to inject a field with a service component object matching the field’s interface.
 
 - Test rule LiferayIntegrationTestRule provides the annotation.
 
@@ -48,17 +46,18 @@
 
 		  }
 
-- @Test designates the testAddArticleWithDDMStructureAndDDMTemplate method as a test. 
+## @Test designates the testAddArticleWithDDMStructureAndDDMTemplate method as a test. 
 
 		@Test
 		public void testAddArticleWithDDMStructureAndDDMTemplate()
 			throws Exception {    
 
-- @Inject annotation to inject service components into an integration test
+## @Inject annotation to inject service components into an integration test
 
-	- Like use @Reference annotation to inject service components into an OSGi component
-  
- 	 	@Inject
+- uses reflection to inject a field with a service component object matching the field’s interface.
+
+- Like use @Reference annotation to inject service components into an OSGi component
+
  
 - The Liferay Arquillian Extension injects the _sampleService field with a SampleService implementation
 
