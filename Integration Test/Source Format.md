@@ -21,3 +21,9 @@
     }
     
 - https://github.com/liferay/liferay-portal/blob/master/modules/util/source-formatter/src/main/resources/documentation/checks/java_log_level_check.markdown
+
+## Copyright
+
+- Files should start with copyright information.
+
+- https://github.com/liferay/liferay-portal/blob/master/modules/util/source-formatter/src/main/resources/documentation/checks/copyright_check.markdown
