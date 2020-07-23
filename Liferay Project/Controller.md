@@ -12,6 +12,18 @@
 
 The middle man in the MVC pattern, the Controller contains logic for passing the data back and forth between the view and the model layers.
 
+## Small Applications
+
+- If you have a small application that’s not heavy on controller logic (maybe just a couple of action methods),
+
+- you can put all your controller code in the -Portlet class.
+
+## Large Applications
+
+- MVC Render Command classes, MVC Action Command classes, and MVC Resource Command classes
+
+
+
 ## Reference
 
 - https://help.liferay.com/hc/en-us/articles/360018165031-Writing-Controller-Code
