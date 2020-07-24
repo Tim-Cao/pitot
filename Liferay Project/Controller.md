@@ -22,15 +22,15 @@ The middle man in the MVC pattern, the Controller contains logic for passing the
 
 - MVCActionCommand:
 
-      - Use -ActionCommand classes to hold each of your portlet actions, which are invoked by action URLs.
+      Use -ActionCommand classes to hold each of your portlet actions, which are invoked by action URLs.
 
 - MVCRenderCommand:
 
-      -Use -RenderCommand classes to hold a render method that dispatches to the appropriate JSP, by responding to render URLs.
+      Use -RenderCommand classes to hold a render method that dispatches to the appropriate JSP, by responding to render URLs.
 
 - MVCResourceCommand:
 
-      - Use -ResourceCommand classes to execute resource serving in your MVC portlet, by responding to resource URLs.
+      Use -ResourceCommand classes to execute resource serving in your MVC portlet, by responding to resource URLs.
 
 ## Reference
 
