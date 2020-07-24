@@ -7,3 +7,9 @@
 - Set the service property to MVCActionCommand.class
 
   - To register the component in the OSGi container as using the MVCActionCommand class
+
+
+
+## doProcessAction method to process action.
+
+  - This method takes javax.portlet.ActionRequest and javax.portlet.ActionResponse parameters
