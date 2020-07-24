@@ -2,13 +2,13 @@
 
 - With Service Builder, the *model* layer is generated into a *service* and an *api* module. That accounts for the model in the MVC pattern. 
 
+  - A module that publishes a portlet component with the necessary properties.
+
 - The *view* and the *controller* share a module, the *web* module.
 
-- A module that publishes a portlet component with the necessary properties.
+  - Controller code to handle the request and response.
 
-- Controller code to handle the request and response.
-
-- JSPs to implement your view layer.
+  - JSPs to implement your view layer.
 
 ## Reference
 
