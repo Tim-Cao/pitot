@@ -1,4 +1,8 @@
-## *-web Module
+## Tree Layers
+
+- With Service Builder, the *model* layer is generated into a *service* and an *api* module. That accounts for the model in the MVC pattern. 
+
+- The *view* and the *controller* share a module, the *web* module.
 
 ## Reference
 
