@@ -1,4 +1,4 @@
-# Declarative Services（DS） annotation 声明式服务标签
+# Declarative Services (DS) Annotation 声明式服务标签
 
 ## OSGi (Open Services Gateway initiative) : OSGi is a component framework for Java. The Dynamic Module System for Java
 
