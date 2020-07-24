@@ -1,3 +1,5 @@
+# Declarative Services（DS） annotation 声明式服务标签
+
 ## OSGi (Open Services Gateway initiative) : OSGi is a component framework for Java. The Dynamic Module System for Java
 
   - Developing with OSGi technology means developing bundles: the OSGi components. Bundles are modules.
