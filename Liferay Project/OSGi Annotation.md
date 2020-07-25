@@ -10,10 +10,18 @@
 ## @Components: defining a service implementation. 
 
 - immediate
+  
+      Often set to true, this will ensure the component is started right away
+    
 - properties
+
+      These properties help to configure the component but also are used to support filtering of components.
+    
 - service
 
-- Whenever you create a component that you want or need to publish into the OSGi container. 
+      Defines the service that the component implements
+
+-Note: Whenever you create a component that you want or need to publish into the OSGi container. 
 
 ## @Reference
 
