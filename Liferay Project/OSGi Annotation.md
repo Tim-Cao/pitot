@@ -21,7 +21,7 @@
 
       Defines the service that the component implements
 
--Note: Whenever you create a component that you want or need to publish into the OSGi container. 
+- Note: Whenever you create a component that you want or need to publish into the OSGi container. 
 
 ## @Reference
 
