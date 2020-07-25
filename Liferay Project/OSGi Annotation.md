@@ -41,6 +41,10 @@ It is only going to work on an OSGi @Component class.
     -  ReferencePolicy.STATIC: The component will only be started when there is an assigned reference, and will not be notified of alternative services as they become available.
 - policyOption:
     - ReferencePolicyOption.RELUCTANT: For single reference cardinality, new reference potentials that become available will be ignored.  For multiple reference cardinality, new reference potentials will be bound.
+    
+## @ProviderType
+
+- Used by BND to define the version ranges assigned in the OSGi manifest in implementors and tries to restrict the range to a narrow version difference.
 
 ## Reference
 
