@@ -26,12 +26,9 @@
 
 - Service implementations that are registered in the OSGi service registry can be accessed using Service Trackers.
 
-- org.osgi.util.tracker.ServiceTracker 
+- org.osgi.util.tracker.ServiceTracker and com.liferay.registry.ServiceTracker are more generic utilities that look up services in the service registry.
 
 - InfoItemServiceTracker is a tracker for services associated to an InfoItem
-
-
-### What's the relationship between com.liferay.info.item.InfoItemServiceTracker and com.liferay.registry.ServiceTracker ?
 
 
 ### What's the relationship between InfoDisplayContributor and InfoItemFormProvider and InfoItemObjectProvider ?
