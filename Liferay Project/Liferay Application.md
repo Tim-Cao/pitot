@@ -1,0 +1,4 @@
+- An API module
+- A Service (provider) module
+- A Test module
+- A Web (consumer) module
