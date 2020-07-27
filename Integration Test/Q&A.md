@@ -24,7 +24,11 @@
       
 ### What's the difference between the usage of org.osgi.util.tracker.ServiceTracker and com.liferay.info.item.InfoItemServiceTracker ?
 
--  Service implementations that are registered in the OSGi service registry can be accessed using Service Trackers.
+- Service implementations that are registered in the OSGi service registry can be accessed using Service Trackers.
+
+- org.osgi.util.tracker.ServiceTracker 
+
+- InfoItemServiceTracker is a tracker for services associated to an InfoItem
 
 
 ### What's the relationship between com.liferay.info.item.InfoItemServiceTracker and com.liferay.registry.ServiceTracker ?
@@ -32,6 +36,9 @@
 
 ### What's the relationship between InfoDisplayContributor and InfoItemFormProvider and InfoItemObjectProvider ?
 
+- InfoDisplayContributor is in charge of the logic for the display pages 
+
+- InfoItemFormProvider is an implementation of part of the contributer, and also InfoItemObjectProvider
 
 ### Which class is the service impl of InfoItemFormProvider and InfoItemObjectProvider?
 
@@ -43,6 +50,10 @@
                            InfoItemFormProvider<Object>,
                            InfoItemFormVariationsProvider<Object>,
                            InfoItemObjectProvider<Object> {
+
+- InfoDisplayContributorWrapper is for backwards compatibility
+
+  - To add new function and not affect the original interface
                            
 ### What's the difference between of getAllInfoItemServices and getFirstInfoItemService ?
 
