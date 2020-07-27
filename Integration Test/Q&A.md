@@ -82,3 +82,11 @@
 
                   return (P)infoItemServices.get(0);
             }
+
+
+### Try to simplify test by existing method.
+
+	@ClassRule
+	@Rule
+	public static final LiferayIntegrationTestRule liferayIntegrationTestRule =
+		new LiferayIntegrationTestRule();
