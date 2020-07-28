@@ -22,6 +22,12 @@
 
   - On installing a module whose service component references another service type, the SCR searches the registry for a component configuration that matches the service type and on finding a match binds an instance of that service to the referring component.
 
+- OSGi Service Registry manages the component and its service registration and manages the references. 
+
+  - OSGi component dependency management controlled via OSGi service registry. 
+
+  - OSGi service registry implemented by OSGi Declarative Services and shorty we call it as DS.
+
 - OSGi implmentation provides the SCR implementation. SCR is part of OSGi environment.
 
 - According OSGi, application is composed of bundles and each bundles have set of components.
