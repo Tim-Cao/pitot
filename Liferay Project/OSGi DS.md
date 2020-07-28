@@ -24,6 +24,10 @@
 
 - OSGi implmentation provides the SCR implementation. SCR is part of OSGi environment.
 
+- According OSGi, application is composed of bundles and each bundles have set of components.
+
+- Components consist of services and these services performs some tasks.
+
 ## Reference 
 
 - http://www.liferaysavvy.com/2017/09/osgi-declarative-services-ds.html
