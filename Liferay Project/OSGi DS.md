@@ -21,3 +21,8 @@
 - Service reference handling:
 
   - On installing a module whose service component references another service type, the SCR searches the registry for a component configuration that matches the service type and on finding a match binds an instance of that service to the referring component.
+
+
+## Reference 
+
+- http://www.liferaysavvy.com/2017/09/osgi-declarative-services-ds.html
