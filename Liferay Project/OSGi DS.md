@@ -22,6 +22,7 @@
 
   - On installing a module whose service component references another service type, the SCR searches the registry for a component configuration that matches the service type and on finding a match binds an instance of that service to the referring component.
 
+- OSGi implmentation provides the SCR implementation. SCR is part of OSGi environment.
 
 ## Reference 
 
