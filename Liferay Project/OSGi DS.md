@@ -31,3 +31,5 @@
 ## Reference 
 
 - http://www.liferaysavvy.com/2017/09/osgi-declarative-services-ds.html
+
+- http://www.liferaysavvy.com/2017/10/liferay-7-dxp-modularity-introduction.html
