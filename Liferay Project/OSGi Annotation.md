@@ -17,9 +17,9 @@
 
       These properties help to configure the component but also are used to support filtering of components.
     
-- service
+- service: Defines the service that the component implements
 
-      Defines the service that the component implements
+      service = InfoDisplayContributor.class
 
 - Note: Whenever you create a component that you want or need to publish into the OSGi container. 
 
