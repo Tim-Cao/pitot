@@ -44,12 +44,12 @@
           private InfoItemServiceTracker _infoItemServiceTracker;
           
           
-  - Inner Implement Class
+- Inner Implement Class
 
           private static class TestInfoDisplayContributor
             implements InfoDisplayContributor<Object> {
     
-   - Integration Test Class
+- Integration Test Class
    
           _registerInfoDisplayContributor();
 
