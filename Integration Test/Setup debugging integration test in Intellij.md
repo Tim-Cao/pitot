@@ -3,7 +3,7 @@
 - Ant
 - Git
 - Nodejs
-- liferay-intellij repo
+- liferay-intellij repo https://github.com/holatuwol/liferay-intellij
 - liferay-plugin (Not Required)
 # Steps
 - Execute `ant all` in source directory
